@@ -18,10 +18,10 @@ They have also been contracted by DARPA to develop advanced humor-based weaponry
 
 Performances
 ------------
-[Underground Throwdown](https://www.youtube.com/embed/_Lvx6ZmK3Fk)
+[Underground Throwdown](https://youtu.be/_Lvx6ZmK3Fk)
 Kick Comedy Theater - Kansas City, MO
-<iframe width="853" height="480" src="https://www.youtube.com/embed/_Lvx6ZmK3Fk" frameborder="0" allowfullscreen></iframe>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/_Lvx6ZmK3Fk' frameborder='0' allowfullscreen></iframe></div>
 
-[A Night of Awesome](https://www.youtube.com/embed/Y3TaCAEkxhs)
+[A Night of Awesome](https://youtu.be/Y3TaCAEkxhs)
 Kick Comedy Theater - Kansas City, MO
-<iframe width="640" height="480" src="https://www.youtube.com/embed/Y3TaCAEkxhs" frameborder="0" allowfullscreen></iframe>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//Y3TaCAEkxhs' frameborder='0' allowfullscreen></iframe></div>
