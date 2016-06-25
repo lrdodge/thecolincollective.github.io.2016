@@ -5,6 +5,7 @@ subtitle: We will never be a band
 permalink: /about/
 comments: false
 author_footer: false
+bigimg: "/img/skyline.jpg"
 ---
 One random day in the spring of 2015, a bunch of people sat down together for beers, and when they stood up again they had become The Colin Collective.
 Based out of Kansas City, The Colin Collective has been playing primarily in long form.
