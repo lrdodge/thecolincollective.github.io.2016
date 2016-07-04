@@ -108,7 +108,7 @@ defaults:
       path: ""
       type: "activities"
     values:
-      layout: "post"
+      layout: "activity"
       show-avatar: true
       comments: true
 
