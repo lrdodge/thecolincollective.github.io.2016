@@ -95,7 +95,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: false
   -
     scope:
       path: "" # all files
