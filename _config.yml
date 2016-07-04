@@ -69,6 +69,12 @@ url-pretty: "TheColinCollective.com"  # eg. "deanattali.com/beautiful-jekyll"
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-77558539-1"
 
+# Collections
+
+collections:
+  activities:
+    output: true
+
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
