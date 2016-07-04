@@ -1,7 +1,10 @@
 ---
 title:  "Say What You See"
 type: exercise
-focus: environment, relationship, observation
+foci:
+  - environment
+  - relationship
+  - observation
 source: "Chris Stoker"
 date: 2015-08-29
 ---

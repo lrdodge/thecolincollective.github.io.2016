@@ -1,7 +1,8 @@
 ---
 title:  "Czechoslovakia Boom Chicka Boom"
 type: warmup
-focus: energy
+foci:
+  - energy
 source: "Laura Irwin"
 date: 2015-11-30
 ---

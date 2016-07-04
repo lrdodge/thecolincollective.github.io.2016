@@ -1,7 +1,8 @@
 ---
 title:  "Ted the Loquacious Gardener"
 type: exercise
-focus: character
+foci:
+  - character
 source: "Ashley Osborn"
 date:   2015-12-14
 ---

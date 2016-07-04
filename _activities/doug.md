@@ -1,7 +1,10 @@
 ---
 title:  "Doug"
 type: exercise
-focus: environment, relationship, observation
+foci:
+  - environment
+  - relationship
+  - observation
 source: "Laura Irwin"
 date: 2015-11-30
 ---

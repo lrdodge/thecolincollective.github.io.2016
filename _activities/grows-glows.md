@@ -1,7 +1,9 @@
 ---
 title:  "Grows / Glows"
 type: warmup
-focus: teamwork, growth
+foci:
+  - teamwork
+  - growth
 source: "Keith Curtis"
 date: 2015-08-18
 ---

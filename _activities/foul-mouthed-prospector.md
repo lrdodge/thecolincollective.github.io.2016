@@ -1,7 +1,9 @@
 ---
 title:  "Foul Mouthed Prospector"
 type: exercise
-focus: support, growth
+foci:
+  - support
+  - growth
 source: "Laura Irwin"
 date: 2015-11-30
 ---

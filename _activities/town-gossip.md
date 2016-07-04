@@ -1,7 +1,10 @@
 ---
 title:  "Town Gossip"
 type: exercise
-focus: observation, character, relationship
+foci:
+  - observation
+  - character
+  - relationship
 source: "Laura Irwin"
 date: 2015-11-30
 ---

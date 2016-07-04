@@ -1,7 +1,9 @@
 ---
 title:  "Characters in a Line"
-category: exercise
-tags: character, observation
+type: exercise
+foci:
+  - character
+  - observation
 source: "Ashley Osborn"
 date: 2015-12-14
 ---
