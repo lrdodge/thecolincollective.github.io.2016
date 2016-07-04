@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Doug"
-date:   2015-11-30
 category: exercise
 tags: environment, relationship, observation
 ---

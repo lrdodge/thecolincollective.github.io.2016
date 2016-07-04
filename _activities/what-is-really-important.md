@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "What is Really Important?"
-date:   2015-08-18
 category: exercise
 tags: observation, content
 ---

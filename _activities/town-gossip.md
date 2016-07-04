@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Town Gossip"
-date:   2015-11-30
 category: exercise
 tags: observation, character, relationship
 ---

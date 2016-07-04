@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Say What You See"
-date:   2015-08-29
 category: exercise
 tags: environment, relationship, observation
 ---

@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Scene Directors"
-date:   2015-08-18
 category: exercise
 tags: growth
 ---

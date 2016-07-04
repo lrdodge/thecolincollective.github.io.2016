@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Chameleon"
-date:   2015-08-29
 category: exercise
 tags: character, observation
 ---

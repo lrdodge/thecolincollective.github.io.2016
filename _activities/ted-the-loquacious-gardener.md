@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Ted the Loquacious Gardener"
-date:   2015-12-14
 category: exercise
 tags: character
 ---

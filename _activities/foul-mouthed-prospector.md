@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Foul Mouthed Prospector"
-date:   2015-11-30
 category: exercise
 tags: support, growth
 ---

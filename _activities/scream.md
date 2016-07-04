@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Scream"
-date:   2015-12-14
 category: warmup
 tags: groupmind, energy
 ---

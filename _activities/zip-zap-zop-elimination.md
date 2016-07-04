@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Zip Zap Zop Elimination"
-date:   2015-12-14
 category: warmup
 tags: energy, observation
 ---

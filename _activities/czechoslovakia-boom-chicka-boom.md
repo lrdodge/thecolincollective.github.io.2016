@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Czechoslovakia Boom Chicka Boom"
-date:   2015-11-30
 category: warmup
 tags: energy
 ---

@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Sixty Seconds Versus Five Seconds"
-date:   2015-08-18
 category: exercise
 tags: content
 ---

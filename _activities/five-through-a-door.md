@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Five Through a Door"
-date:   2015-12-14
 category: exercise
 tags: character, content, relationship, straight-man, environment
 ---

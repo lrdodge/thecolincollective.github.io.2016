@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Sex Escalation"
-date:   2015-11-30
 category: exercise
 tags: growth
 ---

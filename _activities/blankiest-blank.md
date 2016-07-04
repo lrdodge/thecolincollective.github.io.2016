@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Blank-iest Blank"
-date:   2015-08-29
 category: exercise
 tags: character, straight-man, game
 ---

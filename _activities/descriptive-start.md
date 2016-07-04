@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Descriptive Character Jump-start"
-date:   2015-11-30
 category: exercise
 tags: character, relationship
 ---
