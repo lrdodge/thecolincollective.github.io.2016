@@ -1,7 +1,9 @@
 ---
 title:  "Town Gossip"
-category: exercise
-tags: observation, character, relationship
+type: exercise
+focus: observation, character, relationship
+source: "Laura Irwin"
+date: 2015-11-30
 ---
 Three to five people sit in a line of chairs with the lights off and their eyes closed.
 The name of a town is chosen by suggestion.
@@ -11,5 +13,3 @@ Three rounds (see below) going down the line as each person describes, the more 
 1. Name and occupation in the town
 2. Relationship with another person in the line
 3. How did you die?
-
-Laura Irwin

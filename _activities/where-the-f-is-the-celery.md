@@ -1,7 +1,9 @@
 ---
 title:  "Where the F is the Celery"
-category: warmup
-tags: observation, energy
+type: warmup
+focus: observation, energy
+source: "Keith Curtis"
+date: 2015-08-18
 ---
 Extension of Patterns.
 
@@ -14,5 +16,3 @@ For example, the first person says "cat," the second person says "dog," the thir
 Create two or more patterns (suggested: three) until everyone feels comfortable with each linked set.
 Next, start sending the identifiers around the circle at the same time.
 Once everyone is comfortable with the simultaneous identifiers, start moving to the next person in the chain when you're activated.
-
-Keith Curtis

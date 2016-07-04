@@ -2,6 +2,8 @@
 title:  "Characters in a Line"
 category: exercise
 tags: character, observation
+source: "Ashley Osborn"
+date: 2015-12-14
 ---
 Three person scene which begins with a suggestion of a place where people people might be waiting in a line.
 Requires a line of at least six chairs.
@@ -16,5 +18,3 @@ Characters will interact with prior characters in empty seats.
 5. -- -- C1 A2 B2 --
 6. -- -- -- A2 B2 C2
 7. ANY combination
-
-Ashley Osborn

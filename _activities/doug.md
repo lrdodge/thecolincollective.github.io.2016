@@ -1,7 +1,9 @@
 ---
 title:  "Doug"
-category: exercise
-tags: environment, relationship, observation
+type: exercise
+focus: environment, relationship, observation
+source: "Laura Irwin"
+date: 2015-11-30
 ---
 Three person scene with two people in the scene, the third off to the side as "Doug."
 Get a suggestion for a location and an emotion for Doug.
@@ -10,5 +12,3 @@ Doug is in the same scene location, but off to the side but not directly interac
 Escalation of the emotions and relationships is important.
 Non-confrontational interactions preferred.
 Doug isn't connected to the other two scene players, but instead is building his emotional involvement proportional to the escalation of the primary scene players.
-
-Laura Irwin

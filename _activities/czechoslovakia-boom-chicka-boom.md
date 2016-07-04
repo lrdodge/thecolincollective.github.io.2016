@@ -1,7 +1,9 @@
 ---
 title:  "Czechoslovakia Boom Chicka Boom"
-category: warmup
-tags: energy
+type: warmup
+focus: energy
+source: "Laura Irwin"
+date: 2015-11-30
 ---
 Everyone is in a circle clapping in rythm with your neighbors's hands as well as your own, fairly slow at first but after each full round increase the speed.
 
@@ -27,5 +29,3 @@ Everyone is in a circle clapping in rythm with your neighbors's hands as well as
 Repeat.
 The counting after rhythm of the numbers is faster, at the rate the next round will be set at.
 Keep repeating until total chaos engulfs the group.
-
-Laura Irwin
