@@ -6,6 +6,7 @@ foci:
   - observation
 source: "Laura Irwin"
 date: 2015-11-30
+min-people: 7
 ---
 Splint into two or more groups (three to four people per group recommended) with one person waiting on the outside of the groups.
 Within each group play Zip Zap Zop as fast as possible at all times.

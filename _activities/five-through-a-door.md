@@ -8,6 +8,7 @@ foci:
   - straight-man, environment
 source: "Ashley Osborn"
 date: 2015-12-14
+min-people: 2
 ---
 Start with a suggestion for a type of store.
 Start a two person transaction scene with the clerk working in the store as the straight-man.

@@ -6,6 +6,7 @@ foci:
   - energy
 source: "Keith Curtis"
 date: 2015-08-18
+min-people: 3
 ---
 Extension of Patterns.
 

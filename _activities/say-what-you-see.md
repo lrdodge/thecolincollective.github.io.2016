@@ -7,6 +7,7 @@ foci:
   - observation
 source: "Chris Stoker"
 date: 2015-08-29
+min-people: 2
 ---
 Two person scene starts with the following sequence steps:
 

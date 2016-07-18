@@ -7,6 +7,7 @@ foci:
   - relationship
 source: "Laura Irwin"
 date: 2015-11-30
+min-people: 3
 ---
 Three to five people sit in a line of chairs with the lights off and their eyes closed.
 The name of a town is chosen by suggestion.
