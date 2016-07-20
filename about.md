@@ -1,10 +1,11 @@
 ---
 layout: page
 title: About
-subtitle: We will never be a band
+subtitle: We Will Never Be a Band
 permalink: /about/
 comments: false
 author_footer: false
+bigimg: "/img/skyline.jpg"
 ---
 One random day in the spring of 2015, a bunch of people sat down together for beers, and when they stood up again they had become The Colin Collective.
 Based out of Kansas City, The Colin Collective has been playing primarily in long form.
@@ -16,12 +17,11 @@ Several members of the troupe are werewolves, but this won’t become clear unti
 With over thirty years of combined experience, The Colin Collective is dedicated to providing an online educational resource for both new and experienced improvisers.
 They have also been contracted by DARPA to develop advanced humor-based weaponry for the ongoing War on Seriousness.
 
-Performances
-------------
-[Underground Throwdown](https://www.youtube.com/embed/_Lvx6ZmK3Fk)
-Kick Comedy Theater - Kansas City, MO
-<iframe width="853" height="480" src="https://www.youtube.com/embed/_Lvx6ZmK3Fk" frameborder="0" allowfullscreen></iframe>
+### The Carousel - Fiancé
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/_Lvx6ZmK3Fk' frameborder='0' allowfullscreen></iframe></div>
 
-[A Night of Awesome](https://www.youtube.com/embed/Y3TaCAEkxhs)
-Kick Comedy Theater - Kansas City, MO
-<iframe width="640" height="480" src="https://www.youtube.com/embed/Y3TaCAEkxhs" frameborder="0" allowfullscreen></iframe>
+### The Carousel - Doctor/Patient
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//Y3TaCAEkxhs' frameborder='0' allowfullscreen></iframe></div>
+
+### The Rope - Waterpark
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//19FMpfD2e_Q' frameborder='0' allowfullscreen></iframe></div>
