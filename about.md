@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-subtitle: We will never be a band
+subtitle: We Will Never Be a Band
 permalink: /about/
 comments: false
 author_footer: false
