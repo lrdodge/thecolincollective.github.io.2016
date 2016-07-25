@@ -1,9 +1,13 @@
 ---
-layout: post
 title:  "Say What You See"
-date:   2015-08-29
-category: exercise
-tags: environment, relationship, observation
+type: exercise
+foci:
+  - environment
+  - relationship
+  - observation
+source: "Chris Stoker"
+date: 2015-08-29
+min-people: 2
 ---
 Two person scene starts with the following sequence steps:
 
@@ -20,5 +24,3 @@ Rotate through until everyone has been both Person #1 and Person #2 at least onc
 Be sure to give these scenes time to breathe.
 It's not uncommon for these scenes to last five minutes or more.
 If the scene hasn't found a nature close we'll cut at around ten minutes for the sake of time.
-
-Chris Stoker
