@@ -1,9 +1,14 @@
 ---
-layout: post
 title:  "Five Through a Door"
-date:   2015-12-14
-category: exercise
-tags: character, content, relationship, straight-man, environment
+type: exercise
+foci:
+  - character
+  - content
+  - relationship
+  - straight-man, environment
+source: "Ashley Osborn"
+date: 2015-12-14
+min-people: 2
 ---
 Start with a suggestion for a type of store.
 Start a two person transaction scene with the clerk working in the store as the straight-man.
@@ -15,5 +20,3 @@ Short scenes between the two until the customer finds a reason to leave.
 Once the person leaves, they immediately receive a new emotion and must walk back through the door as a new character with a new emotion.
 Emotions are random and instant.
 The challenge is to make the scene non-transactional.
-
-Ashley Osborn
