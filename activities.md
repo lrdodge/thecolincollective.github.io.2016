@@ -1,6 +1,6 @@
 ---
 layout: minimal
-title: What's New
+title: Group Mind
 ---
 
 <div class="posts-list">
