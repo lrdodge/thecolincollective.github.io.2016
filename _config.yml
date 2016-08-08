@@ -49,6 +49,7 @@ author:
   stackoverflow: yourlink  # eg. "3943160/daattali"
 
   instagram: yourname # eg. daattali
+
 # Select which links to show in the footer
 footer-links-active:
   rss: true
@@ -60,6 +61,13 @@ footer-links-active:
   xing: false
   stackoverflow: false
   instagram: false
+
+# Select which share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: true
+  google: false
+  linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
@@ -99,7 +107,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: false
+      comments: false  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
   -
     scope:
       path: "" # all files
