@@ -49,6 +49,7 @@ author:
   stackoverflow: yourlink  # eg. "3943160/daattali"
 
   instagram: yourname # eg. daattali
+  youtube: yourlink # eg. user/daattali or channel/daattali
 
 # Select which links to show in the footer
 footer-links-active:
@@ -61,6 +62,7 @@ footer-links-active:
   xing: false
   stackoverflow: false
   instagram: false
+  youtube: false
 
 # Select which share links to show in posts
 share-links-active:
