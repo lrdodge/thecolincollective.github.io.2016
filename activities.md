@@ -2,6 +2,18 @@
 layout: minimal
 title: Group Mind
 ---
+<script>
+  (function() {
+    var cx = '000078408709314139180:5grkwyhkvtc';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
 
 <div class="posts-list">
   {% for activity in site.activities %}
