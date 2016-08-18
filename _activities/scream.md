@@ -7,6 +7,8 @@ foci:
 source: "Ashley Osborn"
 date: 2015-12-14
 min-people: 3
+duration: 5
+duration-type: fixed
 ---
 Everyone gathers in a tight circle, looking down with their shoulders touching.
 On the count of three, everyone looks up at another person in the circle.

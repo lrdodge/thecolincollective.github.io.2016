@@ -6,6 +6,8 @@ foci:
 source: "Ashley Osborn"
 date:   2015-12-14
 min-people: 2
+duration: 4
+duration-type: linear
 ---
 One person is given three suggestions (in order):
 

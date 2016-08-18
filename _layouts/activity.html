@@ -9,6 +9,11 @@ layout: base
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <div>Type: {{ page.type }}</div>
       <div>Minimum Required: {{ page.min-people }}</div>
+      <div>Duration: {{ page.duration }}
+        {% if page.duration-type == 'linear' %}
+          per person
+        {% endif %}
+      </div>
       <article role="main" class="blog-post">
         Focus:
         <ul>
