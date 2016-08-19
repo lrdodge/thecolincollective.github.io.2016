@@ -7,6 +7,8 @@ foci:
 source: "Laura Irwin"
 date: 2015-11-30
 min-people: 2
+duration: 2
+duration-type: linear
 ---
 Split into two lines.
 The right side comes out acting like a crazy old prospector and says the worst possible thing they can imagine.

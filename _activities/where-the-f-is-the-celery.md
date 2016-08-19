@@ -8,7 +8,7 @@ source: "Keith Curtis"
 date: 2015-08-18
 min-people: 3
 duration: 5
-duration-type: fixed
+duration-type: constant
 ---
 Extension of Patterns.
 
