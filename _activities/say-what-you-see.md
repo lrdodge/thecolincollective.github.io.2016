@@ -8,6 +8,8 @@ foci:
 source: "Chris Stoker"
 date: 2015-08-29
 min-people: 2
+duration: 10
+duration-type: linear
 ---
 Two person scene starts with the following sequence steps:
 

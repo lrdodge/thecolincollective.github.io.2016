@@ -1,8 +1,19 @@
 ---
 layout: minimal
-title: What's New
-subtitle: "#improvchickens"
+title: Group Mind
 ---
+<script>
+  (function() {
+    var cx = '000078408709314139180:5grkwyhkvtc';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
 
 <div class="posts-list">
   {% for activity in site.activities %}
@@ -17,10 +28,6 @@ subtitle: "#improvchickens"
 	  {% endif %}
     </a>
 
-    <p class="post-meta">
-      Assimilated {{ activity.date | date: "%B %-d, %Y" }}
-    </p>
-
     <div class="post-entry">
       {{ activity.content | strip_html | xml_escape | truncatewords: 50 }}
 	  <a href="{{ activity.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
@@ -29,18 +36,3 @@ subtitle: "#improvchickens"
    </article>
   {% endfor %}
 </div>
-
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}

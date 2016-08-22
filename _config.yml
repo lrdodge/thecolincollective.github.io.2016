@@ -45,7 +45,11 @@ author:
   github: yourname    # eg. daattali
   twitter: yourname   # eg. daattali
   linkedin: yourname  # eg. daattali
+  xing: yourname      # eg. daattali
   stackoverflow: yourlink  # eg. "3943160/daattali"
+
+  instagram: yourname # eg. daattali
+  youtube: channel/UCjd5pBEofsKgC0EJRegW1cw # eg. user/daattali or channel/daattali
 
 # Select which links to show in the footer
 footer-links-active:
@@ -55,7 +59,17 @@ footer-links-active:
   twitter: false
   github: false
   linkedin: false
+  xing: false
   stackoverflow: false
+  instagram: false
+  youtube: true
+
+# Select which share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: true
+  google: false
+  linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
@@ -95,7 +109,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: false
+      comments: false  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
   -
     scope:
       path: "" # all files

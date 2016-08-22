@@ -8,6 +8,8 @@ foci:
 source: "Laura Irwin"
 date: 2015-11-30
 min-people: 3
+duration: 4
+duration-type: linear
 ---
 Three to five people sit in a line of chairs with the lights off and their eyes closed.
 The name of a town is chosen by suggestion.
