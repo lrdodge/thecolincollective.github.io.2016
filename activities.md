@@ -1,6 +1,7 @@
 ---
-layout: minimal
+layout: page
 title: Group Mind
+css: ../css/google-search-overrides.css
 ---
 <script>
   (function() {
