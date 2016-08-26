@@ -1,7 +1,13 @@
 .gsc-search-box td {
   border: none;
+  padding: 0;
 }
 
 .gsc-search-box tr {
   border: none;
+  padding: 0;
+}
+
+.cse input.gsc-input, input.gsc-input {
+  background-image:none !important;
 }
