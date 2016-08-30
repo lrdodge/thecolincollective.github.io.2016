@@ -17,3 +17,4 @@ The collective knowledge of the Collective.
 * wordplay - puns
 * support
 * group-mind
+* heightening
