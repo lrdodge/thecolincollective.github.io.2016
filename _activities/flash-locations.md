@@ -3,7 +3,7 @@ title:  "Flash Locations"
 type: exercise
 foci:
   - environment
-  - groupmind
+  - group-mind
   - observation
 source: "Luke Dodge"
 date: 2016-07-21

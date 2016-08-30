@@ -16,4 +16,4 @@ The collective knowledge of the Collective.
 * teamwork - collective group growth
 * wordplay - puns
 * support
-* groupmind
+* group-mind
