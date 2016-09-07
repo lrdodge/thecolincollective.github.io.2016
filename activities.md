@@ -34,6 +34,19 @@ css: ../css/google-search-overrides.css
 	  <a href="{{ activity.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
     </div>
 
+    {% if activity.foci.size > 0 %}
+    <div class="blog-tags">
+      Focus:
+      {% if site.link-tags %}
+      {% for focus in activity.foci %}
+      <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ focus }}</a>
+      {% endfor %}
+      {% else %}
+        {{ activity.foci | join: ", " }}
+      {% endif %}
+    </div>
+    {% endif %}
+
    </article>
   {% endfor %}
 </div>
