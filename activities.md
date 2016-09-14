@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Group Mind
+subtitle: The collective knowledge of the Collective.
 css: ../css/google-search-overrides.css
 ---
 <script>
