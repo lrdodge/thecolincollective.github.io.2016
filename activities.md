@@ -36,7 +36,6 @@ css: ../css/google-search-overrides.css
 
     {% if activity.foci.size > 0 %}
     <div class="blog-tags">
-      Focus:
       {% if site.link-tags %}
       {% for focus in activity.foci %}
       <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ focus }}</a>
