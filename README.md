@@ -2,7 +2,7 @@
 
 The collective knowledge of the Collective.
 
-## Tags
+## Foci
 
 * environment - object work, location
 * relationship
@@ -12,6 +12,7 @@ The collective knowledge of the Collective.
 * game
 * energy - raising the energy level of performers (warm-up)
 * content - content of a scene as a whole
+  * initiations
 * growth - individual performer growth, pushing individual limits
 * teamwork - collective group growth
 * wordplay - puns
