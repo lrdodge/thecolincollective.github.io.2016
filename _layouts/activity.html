@@ -16,9 +16,12 @@ layout: base
         <dd>{{ page.min-people }}+</dd>
         <dt>Time</dt>
         <dd>{{ page.duration }} minute{% if page.duration > 1%}s{% endif %}
-          {% if page.duration-type == 'linear' %}
+          {% case page.duration-type %}
+          {% when 'linear' %}
           per person
-          {% endif %}</dd>
+          {% when 'step' %}
+          per scene
+          {% endcase %}</dd>
       </dl>
       <article role="main" class="blog-post">
 	      {{ content }}
