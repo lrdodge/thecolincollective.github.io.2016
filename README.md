@@ -6,6 +6,7 @@ The collective knowledge of the Collective.
 
 * environment - object work, location
 * relationship
+  * status
 * observation - listening, watching
 * character
 * straight-man
