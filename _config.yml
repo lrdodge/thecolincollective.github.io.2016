@@ -129,7 +129,6 @@ defaults:
       type: "activities"
     values:
       layout: "activity"
-      show-avatar: true
       comments: true
 
 # Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
