@@ -20,32 +20,32 @@ css: ../css/google-search-overrides.css
 <div class="posts-list">
   {% for activity in site.activities %}
   <article class="post-preview">
-    <a href="{{ activity.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ activity.title }}</h2>
 
-	  {% if activity.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ activity.subtitle }}
-	  </h3>
-	  {% endif %}
+    <a href="{{ activity.url | prepend: site.baseurl }}">
+  	  <h2 class="post-title">{{ activity.title }}</h2>
     </a>
+
+    <div>
+      <h3 class="post-subtitle" style="display: inline-block;">
+        {{ activity.type }}
+      </h3>
+      <span class="blog-tags">
+        {% if site.link-tags %}
+        {% for focus in activity.foci %}
+        <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ focus }}</a>
+        {% endfor %}
+        {% else %}
+          {{ activity.foci | join: ", " }}
+        {% endif %}
+      </span>
+    </div>
 
     <div class="post-entry">
       {{ activity.content | strip_html | xml_escape | truncatewords: 50 }}
-	  <a href="{{ activity.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+      <a href="{{ activity.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
     </div>
 
-    {% if activity.foci.size > 0 %}
-    <div class="blog-tags">
-      {% if site.link-tags %}
-      {% for focus in activity.foci %}
-      <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ focus }}</a>
-      {% endfor %}
-      {% else %}
-        {{ activity.foci | join: ", " }}
-      {% endif %}
     </div>
-    {% endif %}
 
    </article>
   {% endfor %}
