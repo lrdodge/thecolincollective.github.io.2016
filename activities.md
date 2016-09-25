@@ -25,26 +25,45 @@ css: ../css/google-search-overrides.css
   	  <h2 class="post-title">{{ activity.title }}</h2>
     </a>
 
-    <div>
-      <h3 class="post-subtitle" style="display: inline-block;">
-        {{ activity.type }}
-      </h3>
-      <span class="blog-tags">
-        {% if site.link-tags %}
-        {% for focus in activity.foci %}
-        <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ focus }}</a>
+    <div class="row">
+      <div class="col-md-2">
+        <h3 class="post-subtitle" style="display: inline-block;">
+          {{ activity.type }}
+        </h3>
+      </div>
+        <div class="col-md-4">
+        <span class="blog-tags">
+          {% if site.link-tags %}
+          {% for focus in activity.foci %}
+          <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ focus }}</a>
+          {% endfor %}
+          {% else %}
+            {{ activity.foci | join: ", " }}
+          {% endif %}
+        </span>
+      </div>
+      <div class="col-md-3">
+        {% for person in (2..activity.min-people) %}
+        <i class="fa fa-user" aria-hidden="true"></i>
         {% endfor %}
-        {% else %}
-          {{ activity.foci | join: ", " }}
-        {% endif %}
-      </span>
+        <i class="fa fa-user-plus" aria-hidden="true"></i>
+      </div>
+      <div class="col-md-3">
+        {% for minute in (1..activity.duration)%}
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        {% endfor %}
+        {% case activity.duration-type %}
+        {% when 'linear' %}
+         <i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-user" aria-hidden="true"></i>
+        {% when 'step' %}
+         <i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-users" aria-hidden="true"></i>
+        {% endcase %}
+      </div>
     </div>
 
     <div class="post-entry">
       {{ activity.content | strip_html | xml_escape | truncatewords: 50 }}
       <a href="{{ activity.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
-    </div>
-
     </div>
 
    </article>
