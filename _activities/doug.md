@@ -8,8 +8,8 @@ foci:
 source: "Laura Irwin"
 date: 2015-11-30
 min-people: 3
-duration: 3
-duration-type: linear
+duration: 4
+duration-type: step
 ---
 Three person scene with two people in the scene, the third off to the side as "Doug."
 Get a suggestion for a location and an emotion for Doug.

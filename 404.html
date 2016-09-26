@@ -2,12 +2,41 @@
 layout: default
 title: 404 - Page not found
 permalink: /404.html
+css: ../css/google-search-overrides.css
 ---
+<script>
+  (function() {
+    var cx = '000078408709314139180:p8rszorm9ly';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
 
 <div class="text-center">
-  <h1>Whoops, this page doesn't exist.</h1>
-  <h1>Move along. (404 error)</h1>
-  <br/>
-
-  <img src="{{ site.baseurl }}/img/404-southpark.jpg" />
+  <img src="{{ site.baseurl }}/img/404-ocean.jpg" />
 </div>
+
+<p>
+  <b>What could have caused this?</b>
+  <ul>
+    <li>Something technical went wrong on our site.</li>
+    <li>We might have removed the page when we redesigned our website.</li>
+    <li>The link you clicked might be old and does not work anymore.</li>
+    <li>You might have accidentally typed the wrong URL in the address bar.</li>
+  </ul>
+<p>
+
+  <p>
+    <b>What can you do?</b>
+    <ul>
+      <li>Try retyping the URL and trying again.</li>
+      <li>Use the search at the top of the page to find what you're looking for.</li>
+      <li>Return to the <a href="javascript:history.back()">previous page</a> and try something different.</li>
+      <li>If you want to help us fix this issue, please contact us and <a href="mailto:thecolincollective@gmail.com?Subject=Dead%20Link">let us know what went wrong</a>.</li>
+    </ul>
+  </p>

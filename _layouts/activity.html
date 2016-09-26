@@ -7,20 +7,23 @@ layout: base
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <div>Type: {{ page.type }}</div>
-      <div>Minimum Required: {{ page.min-people }}</div>
-      <div>Duration: {{ page.duration }}
-        {% if page.duration-type == 'linear' %}
+      <dl class="dl-horizontal">
+        <dt>Type</dt>
+        <dd>{{ page.type }}</dd>
+        <dt>Focus</dt>
+        <dd>{{ page.foci | join: ", " }}</dd>
+        <dt>People</dt>
+        <dd>{{ page.min-people }}+</dd>
+        <dt>Time</dt>
+        <dd>{{ page.duration }} minute{% if page.duration > 1%}s{% endif %}
+          {% case page.duration-type %}
+          {% when 'linear' %}
           per person
-        {% endif %}
-      </div>
+          {% when 'step' %}
+          per scene
+          {% endcase %}</dd>
+      </dl>
       <article role="main" class="blog-post">
-        Focus:
-        <ul>
-          {% for focus in page.foci %}
-          <li>{{ focus }}</li>
-          {% endfor %}
-        </ul>
 	      {{ content }}
         <p>{{ page.date | date: "%B %-d, %Y" }} via {{ page.source}}</p>
 	    </article>

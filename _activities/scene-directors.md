@@ -6,7 +6,7 @@ foci:
 source: "Keith Curtis"
 date: 2015-08-18
 min-people: 3
-duration: 7
+duration: 8
 duration-type: linear
 ---
 Group splits into equal parts On and equal parts Off.

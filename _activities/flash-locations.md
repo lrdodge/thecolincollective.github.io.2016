@@ -3,7 +3,7 @@ title:  "Flash Locations"
 type: exercise
 foci:
   - environment
-  - groupmind
+  - group-mind
   - observation
 source: "Luke Dodge"
 date: 2016-07-21
@@ -17,6 +17,7 @@ As soon as the location is given, players immediately and without hesitation wal
 As players are walking they will create a character to fill a role in the location.
 Each player's interaction with the environment and dialogue with other characters should inform others of their chosen role.
 Object-work should be sufficient to establish your role in the environment, but feel free to interact with other characters as you would in a regular scene.
+
 Don't try to make a different choice than another player.
 No choice is a bad choice; thinking is not required.
 Having multiple people make the same choice can create wonderful scenes when justified of expanded upon.

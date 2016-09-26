@@ -1,0 +1,8 @@
+.gsc-search-box tr, .gsc-search-box td, .gsc-resultsRoot tr, .gsc-resultsRoot td, .gsc-above-wrapper-area tr, .gsc-above-wrapper-area td  {
+  border: none;
+  padding: 0;
+}
+
+.cse input.gsc-input, input.gsc-input {
+  background-image:none !important;
+}

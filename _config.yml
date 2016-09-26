@@ -44,12 +44,14 @@ author:
   facebook: yourname  # eg. daattali
   github: yourname    # eg. daattali
   twitter: yourname   # eg. daattali
+  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
   linkedin: yourname  # eg. daattali
   xing: yourname      # eg. daattali
   stackoverflow: yourlink  # eg. "3943160/daattali"
-
+  snapchat: yourname  # eg. daattali
   instagram: yourname # eg. daattali
   youtube: channel/UCjd5pBEofsKgC0EJRegW1cw # eg. user/daattali or channel/daattali
+  spotify: yourname   # eg. daattali
 
 # Select which links to show in the footer
 footer-links-active:
@@ -58,11 +60,14 @@ footer-links-active:
   email: true
   twitter: false
   github: false
+  google-plus: false
   linkedin: false
   xing: false
   stackoverflow: false
+  snapchat: false
   instagram: false
   youtube: true
+  spotify: false
 
 # Select which share links to show in posts
 share-links-active:
@@ -124,7 +129,6 @@ defaults:
       type: "activities"
     values:
       layout: "activity"
-      show-avatar: true
       comments: true
 
 # Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)

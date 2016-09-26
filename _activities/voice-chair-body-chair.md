@@ -6,7 +6,7 @@ foci:
 source: "Keith Curtis"
 date: 2015-08-18
 min-people: 3
-duration: 3
+duration: 4
 duration-type: linear
 ---
 Two person scene with both people sitting in chairs.
