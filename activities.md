@@ -17,12 +17,14 @@ css: ../css/google-search-overrides.css
 </script>
 <gcse:search></gcse:search>
 
-<ul class="list-inline">
-  <li><i class="fa fa-user" aria-hidden="true"></i><i class="fa fa-user-plus" aria-hidden="true"></i> = people required</li>
-  <li><i class="fa fa-clock-o" aria-hidden="true"></i> = one minute</li>
-  <li><i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-user" aria-hidden="true"></i> = per person</li>
-  <li><i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-users" aria-hidden="true"></i> = per scene</li>
-</ul>
+<div style="text-align: center;">
+  <ul class="list-inline" style="display: inline;">
+    <li><i class="fa fa-user" aria-hidden="true"></i><i class="fa fa-user-plus" aria-hidden="true"></i> = people required</li>
+    <li><i class="fa fa-clock-o" aria-hidden="true"></i> = one minute</li>
+    <li><i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-user" aria-hidden="true"></i> = per person</li>
+    <li><i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-users" aria-hidden="true"></i> = per scene</li>
+  </ul>
+</div>
 
 <div class="posts-list">
   {% for activity in site.activities %}
