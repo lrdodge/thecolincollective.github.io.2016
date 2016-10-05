@@ -81,7 +81,6 @@ share-links-active:
 url-pretty: "TheColinCollective.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
-
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 #disqus: ""
 
@@ -93,6 +92,9 @@ google_analytics: "UA-77558539-1"
 collections:
   activities:
     output: true
+
+# Facebook App ID
+# fb_app_id: ""
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
