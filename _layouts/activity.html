@@ -25,7 +25,9 @@ layout: base
       </dl>
       <article role="main" class="blog-post">
 	      {{ content }}
-        <p>{{ page.date | date: "%B %-d, %Y" }} via {{ page.source}}</p>
+        {% if page.source %}
+          <p>{{ page.date | date: "%B %-d, %Y" }} via {{ page.source}}</p>
+        {% endif %}
 	    </article>
 
 	    {% if page.comments %}
