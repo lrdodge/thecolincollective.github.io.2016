@@ -25,7 +25,7 @@ css: ../css/google-search-overrides.css
     <li><i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-users" aria-hidden="true"></i> = per scene</li>
   </ul>
 </div>
-
+<hr/>
 <div class="posts-list">
   {% for activity in site.activities %}
   <article class="post-preview">
