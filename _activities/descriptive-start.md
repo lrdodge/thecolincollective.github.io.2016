@@ -9,6 +9,7 @@ date: 2015-11-30
 min-people: 2
 duration: 4
 duration-type: step
+people-per-scene: 2
 ---
 Two person scene where each person describes every physical aspect of the other person from the shoes up.
 Character's descriptions don't need to be based off one another.
