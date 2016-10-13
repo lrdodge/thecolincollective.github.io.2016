@@ -1,6 +1,6 @@
 ---
 title:  "Who?, What?, and Where? in Three Lines"
-type: exercise
+type: Exercise
 foci:
   - content
 source: "Bobby McCosky"

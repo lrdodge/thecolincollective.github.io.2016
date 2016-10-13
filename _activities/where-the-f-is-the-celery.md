@@ -1,6 +1,6 @@
 ---
 title:  "Where the F is the Celery"
-type: warmup
+type: Warmup
 foci:
   - observation
   - energy

@@ -1,6 +1,6 @@
 ---
 title:  "Town Gossip"
-type: exercise
+type: Exercise
 foci:
   - observation
   - character

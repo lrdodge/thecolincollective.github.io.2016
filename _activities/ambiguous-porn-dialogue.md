@@ -1,6 +1,6 @@
 ---
 title:  "Ambiguous Porn Dialogue"
-type: warmup
+type: Warmup
 foci:
   - wordplay
 source: "Keith Curtis"

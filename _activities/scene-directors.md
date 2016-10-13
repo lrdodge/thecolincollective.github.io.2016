@@ -1,6 +1,6 @@
 ---
 title:  "Scene Directors"
-type: exercise
+type: Exercise
 foci:
   - growth
 source: "Keith Curtis"

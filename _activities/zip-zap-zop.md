@@ -1,6 +1,6 @@
 ---
 title:  "Zip Zap Zop"
-type: warmup
+type: Warmup
 foci:
   - energy
   - observation

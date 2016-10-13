@@ -1,6 +1,6 @@
 ---
 title:  "Actor Switch"
-type: exercise
+type: Exercise
 foci:
   - relationship
   - character

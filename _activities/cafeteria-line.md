@@ -1,6 +1,6 @@
 ---
 title:  "Cafeteria Line"
-type: exercise
+type: Exercise
 foci:
   - observation
   - heightening

@@ -1,6 +1,6 @@
 ---
 title:  "Scream"
-type: warmup
+type: Warmup
 foci:
   - group-mind
   - energy

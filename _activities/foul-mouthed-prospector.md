@@ -1,6 +1,6 @@
 ---
 title:  "Foul Mouthed Prospector"
-type: exercise
+type: Exercise
 foci:
   - support
   - growth

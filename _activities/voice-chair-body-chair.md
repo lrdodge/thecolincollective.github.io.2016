@@ -1,6 +1,6 @@
 ---
 title:  "Voice Chair / Body Chair"
-type: exercise
+type: Exercise
 foci:
   - character
 source: "Keith Curtis"

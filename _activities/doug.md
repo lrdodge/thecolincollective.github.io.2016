@@ -1,6 +1,6 @@
 ---
 title:  "Doug"
-type: exercise
+type: Exercise
 foci:
   - environment
   - relationship

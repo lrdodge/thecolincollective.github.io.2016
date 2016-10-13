@@ -1,6 +1,6 @@
 ---
 title:  "Sex Escalation"
-type: exercise
+type: Exercise
 foci:
   - growth
 source: "Laura Irwin"

@@ -1,6 +1,6 @@
 ---
 title:  "I, You, We"
-type: exercise
+type: Exercise
 foci:
   - relationship
 source: "Bobby McCosky"

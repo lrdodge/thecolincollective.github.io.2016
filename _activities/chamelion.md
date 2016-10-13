@@ -1,6 +1,6 @@
 ---
 title:  "Chameleon"
-type: exercise
+type: Exercise
 foci:
   - character
   - observation

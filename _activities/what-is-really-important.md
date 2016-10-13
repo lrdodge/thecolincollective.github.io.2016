@@ -1,6 +1,6 @@
 ---
 title:  "What is Really Important?"
-type: exercise
+type: Exercise
 foci:
   - observation
   - content

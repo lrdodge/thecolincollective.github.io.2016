@@ -1,6 +1,6 @@
 ---
 title:  "Five Through a Door"
-type: exercise
+type: Exercise
 foci:
   - character
   - content

@@ -1,6 +1,6 @@
 ---
 title:  "Say What You See"
-type: exercise
+type: Exercise
 foci:
   - environment
   - relationship

@@ -1,6 +1,6 @@
 ---
 title:  "Descriptive Character Jump-start"
-type: exercise
+type: Exercise
 foci:
   - character
   - relationship

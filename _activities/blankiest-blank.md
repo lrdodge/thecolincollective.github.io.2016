@@ -1,6 +1,6 @@
 ---
 title:  "Blank-iest Blank"
-type: exercise
+type: Exercise
 foci:
   - character
   - straight-man

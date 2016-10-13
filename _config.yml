@@ -23,6 +23,7 @@ description: Learn new improv warmups and exercises through a variety of written
 
 # List of links in the navigation bar
 navbar-links:
+  Learn: "activities"
   About: "about"
   # Resources:
   #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"

@@ -1,6 +1,6 @@
 ---
 title:  "Grows / Glows"
-type: warmup
+type: Warmup
 foci:
   - teamwork
   - growth

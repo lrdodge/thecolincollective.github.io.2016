@@ -1,6 +1,6 @@
 ---
 title:  "Flash Locations"
-type: exercise
+type: Exercise
 foci:
   - environment
   - group-mind

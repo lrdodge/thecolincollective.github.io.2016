@@ -1,6 +1,6 @@
 ---
 title:  "Characters in a Line"
-type: exercise
+type: Exercise
 foci:
   - character
   - observation
