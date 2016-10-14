@@ -2,8 +2,8 @@
 title:  "Zip Zap Zop"
 type: Warmup
 foci:
-  - energy
-  - observation
+  - Energy
+  - Observation
 date: 2013-10-07
 source: University of Texas at Austin
 min-people: 3

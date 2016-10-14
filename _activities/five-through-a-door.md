@@ -2,11 +2,11 @@
 title:  "Five Through a Door"
 type: Exercise
 foci:
-  - character
-  - content
-  - relationship
-  - straight-man
-  - environment
+  - Character
+  - Content
+  - Relationship
+  - Straight-man
+  - Environment
 source: "Ashley Osborn"
 date: 2015-12-14
 min-people: 2

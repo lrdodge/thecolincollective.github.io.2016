@@ -2,9 +2,9 @@
 title:  "Say What You See"
 type: Exercise
 foci:
-  - environment
-  - relationship
-  - observation
+  - Environment
+  - Relationship
+  - Observation
 source: "Chris Stoker"
 date: 2015-08-29
 min-people: 2

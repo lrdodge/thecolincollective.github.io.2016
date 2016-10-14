@@ -2,7 +2,7 @@
 title:  "I, You, We"
 type: Exercise
 foci:
-  - relationship
+  - Relationship
 source: "Bobby McCosky"
 date: 2015-08-04
 min-people: 3

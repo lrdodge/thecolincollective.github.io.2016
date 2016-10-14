@@ -2,9 +2,9 @@
 title:  "Doug"
 type: Exercise
 foci:
-  - environment
-  - relationship
-  - observation
+  - Environment
+  - Relationship
+  - Observation
 source: "Laura Irwin"
 date: 2015-11-30
 min-people: 3

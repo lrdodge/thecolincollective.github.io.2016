@@ -47,7 +47,7 @@ css: ../css/google-search-overrides.css
           <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ focus }}</a>
           {% endfor %}
           {% else %}
-            {{ activity.foci | join: ", " }}
+            {{ activity.foci | join: ", " | downcase }}
           {% endif %}
         </span>
       </div>

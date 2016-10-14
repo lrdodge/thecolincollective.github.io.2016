@@ -2,7 +2,7 @@
 title:  "Who?, What?, and Where? in Three Lines"
 type: Exercise
 foci:
-  - content
+  - Content
 source: "Bobby McCosky"
 date: 2015-08-04
 min-people: 2

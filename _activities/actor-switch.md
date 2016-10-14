@@ -2,8 +2,8 @@
 title:  "Actor Switch"
 type: Exercise
 foci:
-  - relationship
-  - character
+  - Relationship
+  - Character
 source: "Bobby McCosky"
 date: 2015-08-04
 min-people: 2

@@ -2,7 +2,7 @@
 title:  "Ambiguous Porn Dialogue"
 type: Warmup
 foci:
-  - wordplay
+  - Wordplay
 source: "Keith Curtis"
 date: 2015-08-18
 min-people: 1

@@ -2,9 +2,9 @@
 title:  "Flash Locations"
 type: Exercise
 foci:
-  - environment
-  - group-mind
-  - observation
+  - Environment
+  - Group-mind
+  - Observation
 source: "Luke Dodge"
 date: 2016-07-21
 min-people: 2

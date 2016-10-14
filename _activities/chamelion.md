@@ -2,8 +2,8 @@
 title:  "Chameleon"
 type: Exercise
 foci:
-  - character
-  - observation
+  - Character
+  - Observation
 source: "Chris Stoker"
 date: 2015-08-29
 min-people: 2

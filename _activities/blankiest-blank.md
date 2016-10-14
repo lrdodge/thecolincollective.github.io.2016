@@ -2,9 +2,9 @@
 title:  "Blank-iest Blank"
 type: Exercise
 foci:
-  - character
-  - straight-man
-  - game
+  - Character
+  - Straight-man
+  - Game
 source: "Chris Stoker"
 date: 2015-08-29
 min-people: 2

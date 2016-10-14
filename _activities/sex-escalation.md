@@ -2,7 +2,7 @@
 title:  "Sex Escalation"
 type: Exercise
 foci:
-  - growth
+  - Growth
 source: "Laura Irwin"
 date: 2015-11-30
 min-people: 2

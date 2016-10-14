@@ -2,8 +2,8 @@
 title:  "Zip Zap Zop Elimination"
 type: Warmup
 foci:
-  - energy
-  - observation
+  - Energy
+  - Observation
 source: "Laura Irwin"
 date: 2015-11-30
 min-people: 7

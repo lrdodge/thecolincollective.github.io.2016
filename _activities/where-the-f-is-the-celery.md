@@ -2,8 +2,8 @@
 title:  "Where the F is the Celery"
 type: Warmup
 foci:
-  - observation
-  - energy
+  - Observation
+  - Energy
 source: "Keith Curtis"
 date: 2015-08-18
 min-people: 3

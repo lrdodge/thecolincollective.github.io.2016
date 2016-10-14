@@ -2,8 +2,8 @@
 title:  "Characters in a Line"
 type: Exercise
 foci:
-  - character
-  - observation
+  - Character
+  - Observation
 source: "Ashley Osborn"
 date: 2015-12-14
 min-people: 1
