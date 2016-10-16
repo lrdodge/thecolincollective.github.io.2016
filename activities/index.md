@@ -17,6 +17,8 @@ css: ../css/google-search-overrides.css
 </script>
 <gcse:search></gcse:search>
 
+{% assign activities = site.activities | sort: "title" %}
+
 <div style="text-align: center;">
   <ul class="list-inline" style="display: inline;">
     <li><i class="fa fa-user" aria-hidden="true"></i><i class="fa fa-user-plus" aria-hidden="true"></i> = people required</li>
@@ -27,7 +29,7 @@ css: ../css/google-search-overrides.css
 </div>
 <hr/>
 <div class="posts-list">
-  {% for activity in site.activities %}
+  {% for activity in activities %}
   <article class="post-preview">
 
     <a href="{{ activity.url | prepend: site.baseurl }}">
