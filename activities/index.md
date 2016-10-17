@@ -38,7 +38,7 @@ css: /css/google-search-overrides.css
 <hr/>
 
 {% for group in groups %}
-<h2 id="{{ group.name | slugify }}">{{ group.name }}s</h2>
+<h2 id="{{ group.name | slugify }}"><u>{{ group.name }}s</u></h2>
 
 {% for activity in group.items %}
 <article class="post-preview">
