@@ -42,16 +42,8 @@ css: ../css/google-search-overrides.css
           {{ activity.type }}
         </h3>
       </div>
-        <div class="col-md-4">
-        <span class="blog-tags">
-          {% if site.link-tags %}
-          {% for focus in activity.foci %}
-          <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ focus }}</a>
-          {% endfor %}
-          {% else %}
-            {{ activity.foci | join: ", " | downcase }}
-          {% endif %}
-        </span>
+      <div class="col-md-4">
+        <span class="blog-tags">{{ activity.foci | join: ", " | downcase }}</span>
       </div>
       <div class="col-md-3">
         {% for person in (2..activity.min-people) %}

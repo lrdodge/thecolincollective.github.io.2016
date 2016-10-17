@@ -1,5 +1,5 @@
 ---
-title:  "Who?, What?, and Where? in Three Lines"
+title:  "Who, What, and Where in Three Lines"
 type: Exercise
 foci:
   - Content
