@@ -12,7 +12,7 @@ duration-type: constant
 ---
 Extension of Patterns.
 
-Group gathers in a circle.
+Invite players to stand in a circle with the order randomized using whatever method you prefer.
 Start by creating a set of linked identifiers following a theme.
 To do this, point at a person who hasn't been pointed at yet and say something in line with the theme which has been created.
 The theme can either be stated ahead of time (i.e. numbers) or created organically.
