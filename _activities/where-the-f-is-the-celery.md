@@ -12,7 +12,7 @@ duration-type: constant
 ---
 Extension of Patterns.
 
-Invite players to stand in a circle with the order randomized using whatever method you prefer.
+{{ site.data.components["Circle Up"] }}
 Start by creating a set of linked identifiers following a theme.
 To do this, point at a person who hasn't been pointed at yet and say something in line with the theme which has been created.
 The theme can either be stated ahead of time (i.e. numbers) or created organically.

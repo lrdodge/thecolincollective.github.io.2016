@@ -10,7 +10,7 @@ min-people: 3
 duration: 2
 duration-type: constant
 ---
-Invite players to stand in a circle with the order randomized using whatever method you prefer.
+{{ site.data.components["Circle Up"] }}
 Ask the group to repeat the words "Zip, Zap, Zop" three or four times, all together.
 Introduce the activity: Imagine that I have a bolt of energy in my hands.
 To start the game, I will send the bolt out of energy out of my body with a strong forward motion straight to someone else in the circle (use hands, body, eyes, and voice to make contact across the circle) and say, "Zip."

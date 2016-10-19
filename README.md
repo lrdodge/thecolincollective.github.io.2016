@@ -20,12 +20,3 @@ The collective knowledge of the Collective.
 * support
 * group-mind
 * heightening
-
-## Activity Components
-
-### Two Lines
-
-### Circle Formation
-Invite players to stand in a circle with the order randomized using whatever method you prefer.
-
-### Rotate Lines

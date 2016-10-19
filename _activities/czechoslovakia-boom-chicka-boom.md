@@ -9,7 +9,7 @@ min-people: 2
 duration: 5
 duration-type: constant
 ---
-Invite players to stand in a circle with the order randomized using whatever method you prefer.
+{{ site.data.components["Circle Up"] }}
 Everyone will be clapping in rhythm with your neighbor's hands as well as your own, fairly slow at first but after each full round increase the speed.
 
     Czechoslovakia, boom chicka boom.
