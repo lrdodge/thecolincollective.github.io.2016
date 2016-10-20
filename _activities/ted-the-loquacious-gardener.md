@@ -9,6 +9,7 @@ min-people: 2
 duration: 4
 duration-type: linear
 ---
+{{ site.data.components["Circle Up"] }}
 One person is given three suggestions (in order):
 
 1. Name
