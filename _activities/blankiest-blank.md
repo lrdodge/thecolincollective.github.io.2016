@@ -11,6 +11,7 @@ min-people: 2
 duration: 3
 duration-type: linear
 ---
-Two person scene with one straight character, the other characterized by <adjective> <job>.
+{{ site.data.components["Form Two Lines"] }}
+Two person scene with one straight character (left side), the other characterized by <adjective> <job> (right side).
 Adjective and job are suggestions.
 Rotate through until everyone has been the straight character and the described character at least once.
