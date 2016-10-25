@@ -1,0 +1,37 @@
+- name: Environment
+  description: object work, location
+
+- name: Relationship
+  description: status
+
+- name: Observation
+  description: listening, watching
+
+- name: Character
+
+- name: Straight Man
+
+- name: Game
+
+- name: Energy
+  description: raising the energy level of performers
+
+- name: Content
+  description: content of a scene as a whole
+
+- name: Initiations
+
+- name: Growth
+  description: individual performer growth, pushing individual limits
+
+- name: Teamwork
+  description:  group growth
+
+- name: Humor
+  description: wordplay, puns
+
+- name: Support
+
+- name: Group Mind
+
+- name: Heightening
