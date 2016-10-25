@@ -4,8 +4,7 @@ title: Group Mind
 subtitle: The collective knowledge of the Collective.
 css: /css/google-search-overrides.css
 ---
-{% assign activities = site.activities | sort: "title" %}
-{% assign groups = activities | group_by: "type" | sort: "name" %}
+{% assign groups = site.activities | sort: "title" | group_by: "type" | sort: "name" %}
 
 <script>
   (function() {
