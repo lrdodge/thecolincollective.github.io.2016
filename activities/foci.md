@@ -18,9 +18,16 @@ css: /css/google-search-overrides.css
 <gcse:search></gcse:search>
 
 {% assign foci = site.data.foci | sort: "name" %}
+{% assign activities = site.activities | sort: "title" %}
 
 {% for focus in foci %}
 <h2>{{ focus.name }}</h2>
 <p>{{ focus.description }}</p>
-
+<ul>
+{% for activity in activities %}
+{% if activity.foci contains focus.name %}
+<li>{{ activity.title }}</li>
+{% endif %}
+{% endfor %}
+</ul>
 {% endfor %}
