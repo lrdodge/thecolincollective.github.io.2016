@@ -4,6 +4,9 @@ title: Group Mind
 subtitle: The collective knowledge of the Collective.
 css: /css/google-search-overrides.css
 ---
+{% assign foci = site.data.foci | sort: "name" %}
+{% assign activities = site.activities | sort: "title" %}
+
 <script>
   (function() {
     var cx = '000078408709314139180:5grkwyhkvtc';
@@ -17,11 +20,14 @@ css: /css/google-search-overrides.css
 </script>
 <gcse:search></gcse:search>
 
-{% assign foci = site.data.foci | sort: "name" %}
-{% assign activities = site.activities | sort: "title" %}
+<div style="text-align: center; padding-bottom: 10px;">
+  {% for focus in foci %}
+  <a href="#{{ focus.name | slugify }}" class="btn btn-default" role="button">{{ focus.name }}</a>
+  {% endfor %}
+</div>
 
 {% for focus in foci %}
-<h2>{{ focus.name }}</h2>
+<h2 id="{{ focus.name | slugify }}">{{ focus.name }}</h2>
 <p>{{ focus.description }}</p>
 <ul>
 {% for activity in activities %}
