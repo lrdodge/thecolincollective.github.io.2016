@@ -17,7 +17,10 @@ css: /css/google-search-overrides.css
 </script>
 <gcse:search></gcse:search>
 
-{% for f in site.data.foci %}
-<h2>{{ f.name }}</h2>
-<p>{{ f.description }}</p>
+{% assign foci = site.data.foci | sort: "name" %}
+
+{% for focus in foci %}
+<h2>{{ focus.name }}</h2>
+<p>{{ focus.description }}</p>
+
 {% endfor %}
