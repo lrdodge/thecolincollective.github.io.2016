@@ -26,7 +26,7 @@ css: /css/google-search-overrides.css
 <ul>
 {% for activity in activities %}
 {% if activity.foci contains focus.name %}
-<li>{{ activity.title }}</li>
+<li><a href="{{ activity.url | prepend: site.baseurl }}">{{ activity.title }}</a></li>
 {% endif %}
 {% endfor %}
 </ul>
