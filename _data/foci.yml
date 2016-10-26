@@ -1,11 +1,11 @@
 - name: Environment
-  description: object work, location
+  description: Object work. Location.
 
 - name: Relationship
-  description: status
+  description: Status.
 
 - name: Observation
-  description: listening, watching
+  description: Listening. Watching.
 
 - name: Character
 
@@ -14,21 +14,21 @@
 - name: Game
 
 - name: Energy
-  description: raising the energy level of performers
+  description: Raising the energy level of performers.
 
 - name: Content
-  description: content of a scene as a whole
+  description: Content of a scene as a whole.
 
 - name: Initiations
 
 - name: Growth
-  description: individual performer growth, pushing individual limits
+  description: Individual performer growth. Pushing individual limits.
 
 - name: Teamwork
-  description:  group growth
+  description:  Group growth.
 
 - name: Humor
-  description: wordplay, puns
+  description: Wordplay. Puns.
 
 - name: Support
 
