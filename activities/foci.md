@@ -26,14 +26,54 @@ css: /css/google-search-overrides.css
   {% endfor %}
 </div>
 
+<div style="text-align: center;">
+  <ul class="list-inline" style="display: inline;">
+    <li><i class="fa fa-user" aria-hidden="true"></i><i class="fa fa-user-plus" aria-hidden="true"></i> = people required</li>
+    <li><i class="fa fa-clock-o" aria-hidden="true"></i> = one minute</li>
+    <li><i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-user" aria-hidden="true"></i> = per person</li>
+    <li><i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-users" aria-hidden="true"></i> = per scene</li>
+  </ul>
+</div>
+
+<hr/>
+
 {% for focus in foci %}
-<h2 id="{{ focus.name | slugify }}">{{ focus.name }}</h2>
+<h2 id="{{ focus.name | slugify }}"><u>{{ focus.name }}</u></h2>
 <p>{{ focus.description }}</p>
-<ul>
-{% for activity in activities %}
-{% if activity.foci contains focus.name %}
-<li><a href="{{ activity.url | prepend: site.baseurl }}">{{ activity.title }}</a></li>
-{% endif %}
-{% endfor %}
-</ul>
+<article class="post-preview" style="padding: 0;">
+    {% for activity in activities %}
+    {% if activity.foci contains focus.name %}
+    <a href="{{ activity.url | prepend: site.baseurl }}">
+      <h3 style="display: inline-block;">{{ activity.title }}</h3>
+    </a>
+    <div class="row">
+      <div class="col-md-4">
+        <span class="blog-tags">{{ activity.type }}</span>
+      </div>
+      <div class="col-md-3">
+        {% for person in (2..activity.min-people) %}
+        <i class="fa fa-user" aria-hidden="true"></i>
+        {% endfor %}
+        <i class="fa fa-user-plus" aria-hidden="true"></i>
+      </div>
+      <div class="col-md-3">
+        {% for minute in (1..activity.duration)%}
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        {% endfor %}
+        {% case activity.duration-type %}
+        {% when 'linear' %}
+        <i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-user" aria-hidden="true"></i>
+        {% when 'step' %}
+        <i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-users" aria-hidden="true"></i>
+        {% endcase %}
+      </div>
+    </div>
+
+    <div class="post-entry">
+      {{ activity.content | strip_html | xml_escape | truncatewords: 50 }}
+      <a href="{{ activity.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+    </div>
+    {% endif %}
+    {% endfor %}
+</article>
 {% endfor %}
