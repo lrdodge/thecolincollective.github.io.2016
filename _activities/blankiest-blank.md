@@ -3,7 +3,7 @@ title:  "Blank-iest Blank"
 type: Exercise
 foci:
   - Character
-  - Straight-man
+  - Straight Man
   - Game
 source: "Chris Stoker"
 date: 2015-08-29
@@ -13,4 +13,4 @@ duration-type: linear
 ---
 Two person scene with one straight character, the other characterized by <adjective> <job>.
 Adjective and job are suggestions.
-Rotate through until everyone has been the straight character and the described character at least once.
+Rotate through until everyone has been the straight character and described character at least once.

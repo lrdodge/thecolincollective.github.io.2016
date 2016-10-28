@@ -4,7 +4,6 @@ type: Exercise
 foci:
   - Observation
   - Heightening
-  - Character
 source: "Bobby McCosky"
 date: 2015-08-04
 min-people: 2

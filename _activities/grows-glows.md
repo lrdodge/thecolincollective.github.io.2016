@@ -2,7 +2,6 @@
 title:  "Grows / Glows"
 type: Warmup
 foci:
-  - Teamwork
   - Growth
 source: "Keith Curtis"
 date: 2015-08-18

@@ -4,6 +4,8 @@ type: Exercise
 foci:
   - Character
   - Observation
+  - Relationship
+  - Energy
 source: "Ashley Osborn"
 date: 2015-12-14
 min-people: 1

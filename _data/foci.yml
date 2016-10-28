@@ -19,13 +19,8 @@
 - name: Content
   description: Content of a scene as a whole.
 
-- name: Initiations
-
 - name: Growth
-  description: Individual performer growth. Pushing individual limits.
-
-- name: Teamwork
-  description:  Group growth.
+  description: Individual performer growth. Pushing individual limits. Teamwork.
 
 - name: Humor
   description: Wordplay. Puns.

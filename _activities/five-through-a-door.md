@@ -5,7 +5,7 @@ foci:
   - Character
   - Content
   - Relationship
-  - Straight-man
+  - Straight Man
   - Environment
 source: "Ashley Osborn"
 date: 2015-12-14
