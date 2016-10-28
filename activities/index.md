@@ -47,7 +47,12 @@ css: /css/google-search-overrides.css
 
   <div class="row">
     <div class="col-md-4">
-      <span class="blog-tags">{{ activity.foci | join: ", " | downcase }}</span>
+      <span class="blog-tags">
+        {% for focus in activity.foci %}
+        {% assign focus-name = focus | slugify %}
+        <a href="{{ site.baseurl | append: "foci\#" | append: focus-name }}" >{{ focus }}</a>
+        {% endfor %}
+      </span>
     </div>
     <div class="col-md-3">
       {% for person in (2..activity.min-people) %}
