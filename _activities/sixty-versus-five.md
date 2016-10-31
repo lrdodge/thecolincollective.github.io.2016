@@ -1,8 +1,8 @@
 ---
 title:  "Sixty Seconds Versus Five Seconds"
-type: exercise
+type: Exercise
 foci:
-  - content
+  - Content
 source: "Keith Curtis"
 date: 2015-08-18
 min-people: 2

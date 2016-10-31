@@ -1,4 +1,4 @@
-# The Colin Collective
+# Glossary
 
 The collective knowledge of the Collective.
 

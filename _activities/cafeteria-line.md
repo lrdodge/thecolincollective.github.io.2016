@@ -1,10 +1,9 @@
 ---
 title:  "Cafeteria Line"
-type: exercise
+type: Exercise
 foci:
-  - observation
-  - heightening
-  - character
+  - Observation
+  - Heightening
 source: "Bobby McCosky"
 date: 2015-08-04
 min-people: 2

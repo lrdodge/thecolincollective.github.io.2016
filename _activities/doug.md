@@ -1,15 +1,16 @@
 ---
 title:  "Doug"
-type: exercise
+type: Exercise
 foci:
-  - environment
-  - relationship
-  - observation
+  - Environment
+  - Relationship
+  - Observation
 source: "Laura Irwin"
 date: 2015-11-30
 min-people: 3
 duration: 4
 duration-type: step
+people-per-scene: 3
 ---
 Three person scene with two people in the scene, the third off to the side as "Doug."
 Get a suggestion for a location and an emotion for Doug.

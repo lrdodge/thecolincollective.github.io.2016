@@ -1,15 +1,15 @@
 ---
-title:  "Who?, What?, and Where? in Three Lines"
-type: exercise
+title:  "Who, What, and Where in Three Lines"
+type: Exercise
 foci:
-  - content
+  - Content
 source: "Bobby McCosky"
 date: 2015-08-04
 min-people: 2
 duration: 2
 duration-type: linear
 ---
-People form into two lines.
+{{ site.data.components["Form Two Lines"] }}
 
 1. The person from the right line will initiate each scene with a single line.
 2. The left person will respond with a single line.

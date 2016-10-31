@@ -1,8 +1,8 @@
 ---
 title:  "Scene Directors"
-type: exercise
+type: Exercise
 foci:
-  - growth
+  - Growth
 source: "Keith Curtis"
 date: 2015-08-18
 min-people: 3

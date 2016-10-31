@@ -4,6 +4,13 @@ layout: base
 
 {% include header.html type="activity" %}
 
+<style>
+  #people {
+    width: 4em;
+    display: inline;
+  }
+</style>
+
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -15,17 +22,27 @@ layout: base
         <dt>People</dt>
         <dd>{{ page.min-people }}+</dd>
         <dt>Time</dt>
-        <dd>{{ page.duration }} minute{% if page.duration > 1%}s{% endif %}
+        <dd>
           {% case page.duration-type %}
+          {% when 'constant' %}
+          {{ page.duration }} minute{% if page.duration > 1%}s{% endif %}
           {% when 'linear' %}
-          per person
+          {{ page.duration }} minute{% if page.duration > 1%}s{% endif %} per person
           {% when 'step' %}
-          per scene
+          <form class="form-inline">
+            <div class="form-group">
+              <span>{{ page.duration }} minute scenes</span>
+              <span> <i class="fa fa-times" aria-hidden="true"></i> <input id="people" class="form-control input-sm" type="number" min="{{page.min-people}}" step="1" value="{{page.min-people}}"/> people</span>
+              <span> = <span id="duration">{{ page.duration }}</span> minutes</span>
+          </form>
           {% endcase %}</dd>
       </dl>
+
       <article role="main" class="blog-post">
 	      {{ content }}
-        <p>{{ page.date | date: "%B %-d, %Y" }} via {{ page.source}}</p>
+        {% if page.source %}
+          <p>{{ page.date | date: "%B %-d, %Y" }} via {{ page.source}}</p>
+        {% endif %}
 	    </article>
 
 	    {% if page.comments %}
@@ -36,3 +53,16 @@ layout: base
     </div>
   </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+
+<script>
+function updateMinutes() {
+    var people = $("#people").val();
+    var scenes = Math.ceil(people / {{ page.people-per-scene }});
+    var duration = scenes * {{ page.duration }};
+    $("#duration").text(duration);
+  }
+
+  $("#people").change(updateMinutes);
+</script>

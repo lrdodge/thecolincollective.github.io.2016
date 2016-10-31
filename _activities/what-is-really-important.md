@@ -1,9 +1,9 @@
 ---
 title:  "What is Really Important?"
-type: exercise
+type: Exercise
 foci:
-  - observation
-  - content
+  - Observation
+  - Content
 source: "Keith Curtis"
 date: 2015-08-18
 min-people: 4

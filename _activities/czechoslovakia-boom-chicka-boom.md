@@ -1,18 +1,19 @@
 ---
 title:  "Czechoslovakia Boom Chicka Boom"
-type: warmup
+type: Warmup
 foci:
-  - energy
+  - Energy
 source: "Laura Irwin"
 date: 2015-11-30
 min-people: 2
 duration: 5
 duration-type: constant
 ---
-Everyone is in a circle clapping in rhythm with your neighbor's hands as well as your own, fairly slow at first but after each full round increase the speed.
+{{ site.data.components["Circle Up"] }}
+Everyone will be clapping in rhythm with your neighbor's hands as well as your own, fairly slow at first but after each full round increase the speed.
 
     Czechoslovakia, boom chicka boom.
-	Yugoslavia, boom chicka boom.
+    Yugoslavia, boom chicka boom.
     Let's get the rhythm of the hands.
     *clap clap clap*
     We've got the rhythm of the hands.
@@ -26,9 +27,9 @@ Everyone is in a circle clapping in rhythm with your neighbor's hands as well as
     We've got the rhythm of the eyes.
     WOOOOO!!!
     Let's get the rhythm of the numbers.
-	Two Three Four
-	We've got the rhythm of the numbers.
-	Two Three Four
+    Two Three Four
+    We've got the rhythm of the numbers.
+    Two Three Four
 
 Repeat.
 The counting after rhythm of the numbers is faster, at the rate the next round will be set at.

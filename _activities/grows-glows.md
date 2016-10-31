@@ -1,16 +1,15 @@
 ---
 title:  "Grows / Glows"
-type: warmup
+type: Warmup
 foci:
-  - teamwork
-  - growth
+  - Growth
 source: "Keith Curtis"
 date: 2015-08-18
 min-people: 2
 duration: 1
 duration-type: linear
 ---
-Gather everyone into a circle with the order randomized using whatever method you prefer.
+{{ site.data.components["Circle Up"] }}
 Tell the person to your left something in improv which he/she:
 
 1. does well or you appreciate

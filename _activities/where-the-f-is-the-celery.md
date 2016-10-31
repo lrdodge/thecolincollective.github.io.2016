@@ -1,9 +1,9 @@
 ---
 title:  "Where the F is the Celery"
-type: warmup
+type: Warmup
 foci:
-  - observation
-  - energy
+  - Observation
+  - Energy
 source: "Keith Curtis"
 date: 2015-08-18
 min-people: 3
@@ -12,7 +12,7 @@ duration-type: constant
 ---
 Extension of Patterns.
 
-Group gathers in a circle.
+{{ site.data.components["Circle Up"] }}
 Start by creating a set of linked identifiers following a theme.
 To do this, point at a person who hasn't been pointed at yet and say something in line with the theme which has been created.
 The theme can either be stated ahead of time (i.e. numbers) or created organically.
