@@ -9,7 +9,7 @@ min-people: 2
 duration: 2
 duration-type: linear
 ---
-People form into two lines.
+{{ site.data.components["Form Two Lines"] }}
 
 1. The person from the right line will initiate each scene with a single line.
 2. The left person will respond with a single line.

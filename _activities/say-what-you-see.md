@@ -11,6 +11,7 @@ min-people: 2
 duration: 10
 duration-type: linear
 ---
+{{ site.data.components["Form Two Lines"] }}
 Two person scene starts with the following sequence steps:
 
 1. Person #1 starts the scene with an action/activity.
