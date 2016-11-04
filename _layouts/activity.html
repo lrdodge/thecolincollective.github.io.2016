@@ -4,6 +4,10 @@ layout: base
 
 {% include header.html type="activity" %}
 
+{% comment %}
+Styles for the people field are not put in a separate file because the load
+order will not override the bootstrap styles.
+{% endcomment %}
 <style>
   #people {
     width: 4em;
@@ -57,12 +61,15 @@ layout: base
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
 
 <script>
-function updateMinutes() {
+  function updateMinutes() {
     var people = $("#people").val();
     var scenes = Math.ceil(people / {{ page.people-per-scene }});
     var duration = scenes * {{ page.duration }};
     $("#duration").text(duration);
   }
 
-  $("#people").change(updateMinutes);
+  $(document).ready() {
+    $("#people").change(updateMinutes);
+    $("#people").keyup(updateMinutes);
+  }  
 </script>
