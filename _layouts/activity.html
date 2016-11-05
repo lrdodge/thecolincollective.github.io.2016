@@ -68,8 +68,8 @@ order will not override the bootstrap styles.
     $("#duration").text(duration);
   }
 
-  $(document).ready() {
+  $(document).ready(function() {
     $("#people").change(updateMinutes);
     $("#people").keyup(updateMinutes);
-  }  
+  });
 </script>
