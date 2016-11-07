@@ -25,6 +25,7 @@ css:
   {% for group in groups %}
   <a href="#{{ group.name | slugify }}" class="btn btn-default" role="button">{{ group.name }}s</a>
   {% endfor %}
+  <a href="foci" class="btn btn-info" role="button">Focus</a>
 </div>
 
 <div class="text-center">

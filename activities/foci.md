@@ -26,6 +26,7 @@ css:
   {% for focus in foci %}
   <a href="#{{ focus.name | slugify }}" class="btn btn-default" role="button">{{ focus.name }}</a>
   {% endfor %}
+  <a href="/activities" class="btn btn-info" role="button">Type</a>
 </div>
 
 <div class="text-centered">
