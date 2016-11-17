@@ -25,7 +25,6 @@ css:
   {% for group in groups %}
   <a href="#{{ group.name | slugify }}" class="btn btn-default" role="button">{{ group.name }}s</a>
   {% endfor %}
-  <a href="foci" class="btn btn-info" role="button">Focus</a>
 </div>
 
 <div class="text-center">
@@ -34,6 +33,7 @@ css:
     <li><i class="fa fa-clock-o" aria-hidden="true"></i> = one minute</li>
     <li><i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-user" aria-hidden="true"></i> = per person</li>
     <li><i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-users" aria-hidden="true"></i> = per scene</li>
+    <li><a href="foci" class="btn btn-info" role="button"><i class="fa fa-tags" aria-hidden="true"></i> Focus</a></li>
   </ul>
 </div>
 
@@ -53,7 +53,7 @@ css:
       <span class="blog-tags">
         {% for focus in activity.foci %}
         {% assign focus-name = focus | slugify %}
-        <a href="{{ site.baseurl | append: "foci\#" | append: focus-name }}" >{{ focus }}</a>
+        <a href="{{ site.baseurl | append: "foci\#" | append: focus-name }}"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;{{ focus }}</a>
         {% endfor %}
       </span>
     </div>

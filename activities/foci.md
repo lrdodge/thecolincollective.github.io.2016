@@ -24,9 +24,8 @@ css:
 
 <div class="text-centered group-links">
   {% for focus in foci %}
-  <a href="#{{ focus.name | slugify }}" class="btn btn-default" role="button">{{ focus.name }}</a>
+  <a href="#{{ focus.name | slugify }}" class="btn btn-sml" role="button"><i class="fa fa-tag" aria-hidden="true"></i> {{ focus.name }}</a>
   {% endfor %}
-  <a href="/activities" class="btn btn-info" role="button">Type</a>
 </div>
 
 <div class="text-centered">
@@ -35,6 +34,7 @@ css:
     <li><i class="fa fa-clock-o" aria-hidden="true"></i> = one minute</li>
     <li><i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-user" aria-hidden="true"></i> = per person</li>
     <li><i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-users" aria-hidden="true"></i> = per scene</li>
+    <li><a href="/activities" class="btn btn-info" role="button">Type</a></li>
   </ul>
 </div>
 
