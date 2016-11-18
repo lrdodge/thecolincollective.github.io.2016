@@ -45,7 +45,7 @@ order will not override the bootstrap styles.
       <article role="main" class="blog-post">
 	      {{ content }}
         {% if page.source %}
-          <p>{{ page.date | date: "%B %-d, %Y" }} via {{ page.source}}</p>
+          <p>{{ page.date | date: "%B %-d, %Y" }} via {{ page.source | join: ", " }}</p>
         {% endif %}
 	    </article>
 
