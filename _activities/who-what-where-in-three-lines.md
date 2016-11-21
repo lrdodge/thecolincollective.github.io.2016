@@ -17,5 +17,4 @@ duration-type: linear
 
 Goal is to answer the questions "Who?" "What?" "Where?" in only three lines.
 Doing this will establish the scene for the players and the audience up top so the rest of the scene is less work.
-Switch lines after completing a scene.
-Continue until everyone has initiated a scene.
+{{ site.data.components["Switch Lines"] }}

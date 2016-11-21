@@ -22,7 +22,7 @@ Two person scene starts with the following sequence steps:
 6. Person #1 then says something about what they observe about Person #2.
 
 The scene continues focusing on these relationships.
-Rotate through until everyone has been both Person #1 and Person #2 at least once.
+{{ site.data.components["Switch Lines"] }}
 
 Be sure to give these scenes time to breathe.
 It's not uncommon for these scenes to last five minutes or more.

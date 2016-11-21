@@ -16,4 +16,4 @@ Then the scene progresses with the chameleon duplicating the type of character t
 This includes the opinions and world views.
 Everything!
 
-Rotate through until everyone has been the initiator and the chameleon at least once.
+{{ site.data.components["Switch Lines"] }}
