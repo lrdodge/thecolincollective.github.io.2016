@@ -9,7 +9,7 @@ css: ../css/colin-subsidiaries.css
     <th>Name</th>
     <th>Members</th>
   </tr>
-{% for subsidiary in site.data.subsidiaries.subsidiaries %}
+{% for subsidiary in site.data.subsidiaries %}
   <tr>
     <td>
       {% if subsidiary.name %}
