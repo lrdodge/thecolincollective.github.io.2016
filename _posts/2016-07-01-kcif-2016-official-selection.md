@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Official Selection for the 2016 Kansas City Improv Festival
-bigimg: /img/kcif-official-selection-2016.jpg
+bigimg: /img/kcif-2016/kcif-official-selection-2016.jpg
 ---
 The Colin Collective has been selected to perform at the 2016 Kansas City Improv Festival! We are excited to present our latest format “The Rope.” In each scene, one character (presumably the most interesting one) leaves the scene and we follow him or her to the next location. Worlds blend, meld, and collide, building and fleshing out a beautifully crafted and three dimensional imaginary universe.
 
