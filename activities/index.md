@@ -2,7 +2,9 @@
 layout: page
 title: Group Mind
 subtitle: The collective knowledge of the Collective.
-css: /css/google-search-overrides.css
+css:
+- /css/google-search-overrides.css
+- /css/colin-activities.css
 ---
 {% assign groups = site.activities | sort: "title" | group_by: "type" | sort: "name" %}
 
@@ -19,18 +21,19 @@ css: /css/google-search-overrides.css
 </script>
 <gcse:search></gcse:search>
 
-<div style="text-align: center; padding-bottom: 10px;">
+<div class="text-center group-links">
   {% for group in groups %}
   <a href="#{{ group.name | slugify }}" class="btn btn-default" role="button">{{ group.name }}s</a>
   {% endfor %}
 </div>
 
-<div style="text-align: center;">
-  <ul class="list-inline" style="display: inline;">
+<div class="text-center">
+  <ul class="list-inline">
     <li><i class="fa fa-user" aria-hidden="true"></i><i class="fa fa-user-plus" aria-hidden="true"></i> = people required</li>
     <li><i class="fa fa-clock-o" aria-hidden="true"></i> = one minute</li>
     <li><i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-user" aria-hidden="true"></i> = per person</li>
     <li><i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-users" aria-hidden="true"></i> = per scene</li>
+    <li><a href="foci" class="btn btn-info" role="button"><i class="fa fa-tags" aria-hidden="true"></i> Focus</a></li>
   </ul>
 </div>
 
@@ -42,7 +45,7 @@ css: /css/google-search-overrides.css
 {% for activity in group.items %}
 <article class="post-preview">
   <a href="{{ activity.url | prepend: site.baseurl }}">
-    <h3 style="display: inline-block; margin-top: 0;">{{ activity.title }}</h3>
+    <h3 class="group-heading">{{ activity.title }}</h3>
   </a>
 
   <div class="row">
@@ -50,7 +53,7 @@ css: /css/google-search-overrides.css
       <span class="blog-tags">
         {% for focus in activity.foci %}
         {% assign focus-name = focus | slugify %}
-        <a href="{{ site.baseurl | append: "foci\#" | append: focus-name }}" >{{ focus }}</a>
+        <a href="{{ site.baseurl | append: "foci\#" | append: focus-name }}"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;{{ focus }}</a>
         {% endfor %}
       </span>
     </div>

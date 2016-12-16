@@ -1,32 +1,38 @@
 - name: Environment
-  description: Object work. Location.
+  description: Interacting with the location; object work. Specificity of the area around the characters. Creating a space the audence can believe. Don't drop the location or what is in it.
 
 - name: Relationship
-  description: Status.
+  description: How characters know and feel about each other, including status. Show, don't tell the details of a relationship.
 
 - name: Observation
-  description: Listening. Watching.
+  description: Listening. Watching. Knowing what is happening in the scene. Accepting all details which are given or inferred.
 
 - name: Character
+  description: Persona other than yourself. Scratch that, you're a valid character as well. Typically refers to a specific point of view.
 
 - name: Straight Man
+  description: Grounded character the audience can relate to in the scene.
 
 - name: Game
+  description: Pattern of interactions. Interplay of characters' wants or needs.
 
 - name: Energy
-  description: Raising the energy level of performers.
+  description: Raising the energy level of performers. Typically includes more physical elements.
 
 - name: Content
-  description: Content of a scene as a whole.
+  description: Engaging content which drives the scene forward as a whole. Reducing the fluff in scenework.
 
 - name: Growth
   description: Individual performer growth. Pushing individual limits. Teamwork.
 
 - name: Humor
-  description: Wordplay. Puns.
+  description: Finding the comedy in the momement. Wordplay, Puns, and Group Games.
 
 - name: Support
+  description: Making your scene partner look good. Giving gifts to other players.
 
 - name: Group Mind
+  description: Connect with your scene parterns on a subconsious level and antiticapte their thoughts. Know their play styles and act accordingly.
 
 - name: Heightening
+  description: Increasing the stakes of a scene. Taking the game up a notch to a more ridiculous level.

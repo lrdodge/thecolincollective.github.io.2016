@@ -1,8 +1,5 @@
 source 'https://rubygems.org'
 
 gem 'execjs'
-group :production do
-  gem 'therubyracer'
-end
-gem 'github-pages'
+gem 'github-pages', ">=106"
 gem 'jekyll-paginate'

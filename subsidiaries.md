@@ -2,18 +2,19 @@
 layout: page
 title: Subsidiaries
 subtitle: Patent Pending
+css: ../css/colin-subsidiaries.css
 ---
 <table>
   <tr>
     <th>Name</th>
     <th>Members</th>
   </tr>
-{% for subsidiary in site.data.subsidiaries.subsidiaries %}
+{% for subsidiary in site.data.subsidiaries %}
   <tr>
     <td>
       {% if subsidiary.name %}
         {{ subsidiary.name }}
-        <a href="mailto:thecolincollective@gmail.com?Body=New%20Name:&Subject=Edit%20Request%20for%20{{ subsidiary.members | join: '|' | url_encode }}" target="_blank" style="float:right;">
+        <a class="edit-link" href="mailto:thecolincollective@gmail.com?Body=New%20Name:&Subject=Edit%20Request%20for%20{{ subsidiary.members | join: '|' | url_encode }}" target="_blank">
           <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
         </a>
       {% else %}

@@ -14,4 +14,4 @@ duration-type: linear
 {{ site.data.components["Form Two Lines"] }}
 Two person scene with one straight character (left side), the other characterized by <adjective> <job> (right side).
 Adjective and job are suggestions.
-Rotate through until everyone has been the straight character and described character at least once.
+{{ site.data.components["Switch Lines"] }}

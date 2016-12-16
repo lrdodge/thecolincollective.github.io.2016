@@ -24,6 +24,7 @@ description: Learn new improv warmups and exercises through a variety of written
 # List of links in the navigation bar
 navbar-links:
   # Learn: "activities"
+  Shows: "shows"
   About: "about"
   # Resources:
   #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
@@ -42,7 +43,7 @@ avatar: "/img/bulb.png"
 author:
   name: Luke Dodge
   email: "thecolincollective@gmail.com"
-  facebook: yourname  # eg. daattali
+  facebook: thecolincollective  # eg. daattali
   github: yourname    # eg. daattali
   twitter: yourname   # eg. daattali
   reddit: yourname    # eg. daattali
@@ -58,7 +59,7 @@ author:
 # Select which links to show in the footer
 footer-links-active:
   rss: true
-  facebook: false
+  facebook: true
   email: true
   twitter: false
   github: false
